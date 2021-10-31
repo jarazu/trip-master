@@ -1,5 +1,5 @@
 .shipping-form {
-  margin: 30px 150px;
+  /* margin: 30px 150px; */
 }
 .shipping-form input {
   display: block;
@@ -11,4 +11,9 @@
 }
 .error {
   color: red;
+}
+.add-service-area {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0 420px 0;
 }

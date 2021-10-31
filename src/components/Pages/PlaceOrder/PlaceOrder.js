@@ -15,7 +15,7 @@ const PlaceOrder = () => {
     const onSubmit = data => {
         data.status = 'Pending'
         data.service = {_id, name, price, image}
-        fetch('http://localhost:5000/room-book',{
+        fetch('https://creepy-castle-34408.herokuapp.com/room-book',{
             method:'post',
             headers:{
                 'content-type':'application/json'
@@ -34,7 +34,8 @@ const PlaceOrder = () => {
     return (
         <Container>
             <Row className="order-main-area">
-                <Col sm={6}>
+                <h2 className="mt-4">Place your order here</h2>
+                <Col sm={6} md={6}>
                     <div className="container details-service my-5">
                         <img src={image} alt="" className="img-fluid"/>
                         <h2 className="m-5">{name}</h2>
@@ -42,7 +43,7 @@ const PlaceOrder = () => {
                         <p className="fw-bold pb-4">{description}</p>
                     </div>
                 </Col>
-                <Col sm={6}>
+                <Col sm={6} md={6} className="order-form-main">
                     <div>
                         <form className="order-form" onSubmit={handleSubmit(onSubmit)}>
                             <input readOnly defaultValue={users?.displayName} {...register("name")} />

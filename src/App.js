@@ -9,6 +9,7 @@ import PrivateRoute from './components/Pages/PrivateRoute/PrivateRoute';
 import PlaceOrder from './components/Pages/PlaceOrder/PlaceOrder';
 import MyOrder from './components/Pages/MyOrder/MyOrder';
 import ManageAllOrder from './components/Pages/ManageAllOrder/ManageAllOrder';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
               <Login/>
             </Route>
         </Switch>
+          <Footer/>
       </Router>
       </AuthProvider>
     </div>

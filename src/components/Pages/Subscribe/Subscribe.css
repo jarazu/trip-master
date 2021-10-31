@@ -1,0 +1,17 @@
+.subscribe-area {
+  background-color: #00224f;
+  padding: 25px;
+  color: white;
+}
+.social-list a {
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 26px;
+  margin: 5px;
+  color: pink;
+  background-color: white;
+  border-radius: 5px;
+}
+.inp-group {
+  margin: 0 auto;
+}

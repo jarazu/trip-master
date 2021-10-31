@@ -1,3 +1,11 @@
-.main {
-  color: red;
+.nav-area {
+  background-color: #00224f;
+}
+
+.nav-area a {
+  color: white;
+}
+
+.display-name {
+  margin-left: 10px;
 }

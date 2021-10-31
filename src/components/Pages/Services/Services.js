@@ -9,7 +9,7 @@ const Services = () => {
 
     // get all services *****
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://creepy-castle-34408.herokuapp.com/services')
             .then(res => res.json())
             .then(data => {
                 setServices(data);
@@ -20,10 +20,10 @@ const Services = () => {
     if(isLoading){
         return <Spinner animation="border" variant="danger"/>
     }
-    
+
     return (
-        <div>
-            <h2>This is services : {services.length}</h2>
+        <div className="services-area">
+            <h2> <span className="total-service">{services.length}</span> Exiting offers available!!!</h2>
             <Container>
                 <Row>
                     {

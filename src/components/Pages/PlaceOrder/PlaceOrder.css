@@ -12,3 +12,12 @@
 .error {
   color: red;
 }
+.order-form-main {
+  margin-top: 10px;
+}
+
+.details-service {
+  border: 1px solid #00224f;
+  border-radius: 5px;
+  padding: 5px;
+}

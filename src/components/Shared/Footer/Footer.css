@@ -1,0 +1,13 @@
+.footer-area {
+  background-color: #031c3d87;
+  padding: 25px;
+}
+.social-list a {
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 26px;
+  margin: 5px;
+  color: #00224f;
+  background-color: white;
+  border-radius: 5px;
+}
